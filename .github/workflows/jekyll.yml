@@ -2,12 +2,6 @@ name: Jekyll Deploy
 
 on:
   push:
-    branches:
-      # deploy on updates on main
-      - master
-  schedule:
-    # redeploy every morning to update unpublished pages
-    - cron: "0 2 * * *"
 
 jobs:
   deploy:
