@@ -2,11 +2,11 @@ name: Jekyll Deploy
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-  workflow_dispatch:
 
     steps:
       - run: echo hello world
